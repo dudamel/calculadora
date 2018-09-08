@@ -11,3 +11,4 @@ script:
   #- coverage run --source=home manage.py test home
 after_success:
 - coveralls
+- landscape 
